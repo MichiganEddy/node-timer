@@ -1,0 +1,20 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "Simple timer module",
+  "main": "timer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel timer.js -o timer_babeled.js",
+    "start": "node timer_babeled.js"
+    },
+  "author": "Chris Carlson",
+  "license": "MIT",
+  "dependencies": {
+    "cli-spinner": "^0.2.5",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0"
+  }
+}
